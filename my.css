@@ -1,0 +1,7 @@
+#circle {
+	background-color: lightgray;
+	border-radius: 100%;
+	display: inline-block;
+	width: 10%;
+	height: 10%;
+}

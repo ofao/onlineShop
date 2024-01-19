@@ -1,0 +1,63 @@
+.razdel {
+	position: relative;
+	height: 30%;
+	border-radius: 10px;
+	margin: 25px;
+	transition: all .5s;
+}
+.razdel-hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	transition: all .5s;
+}
+.razdel-hover h2 {
+	position: relative;
+	width: 100%;
+	top: 0;
+	font-size: 30px;
+	color: e7ecef;
+	z-index: 1;
+	transition: all .5s;
+}
+.razdel:hover {
+	height: 40%;
+}
+.razdel-hover:hover {
+	backdrop-filter: blur(2px);
+}
+.razdel-hover:hover > h2 {
+	font-size: 25px;
+}
+.razdel-hover:hover > section {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	justify-items: center;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+.buttons-razdel {
+	display: none;
+	transition: all .5s;
+	height: 90%;
+	position: relative;
+	z-index: 2;
+}
+.buttons-razdel button {
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0);
+	margin: 10px;
+	color: e7ecef;
+	font-size: 18px;
+	border: 1px solid black;
+	border-color: e7ecef;
+	cursor: pointer;
+}
+.buttons-razdel button:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
