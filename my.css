@@ -13,3 +13,13 @@
   margin: 15px;
   align-self: center;
 }
+#settings {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-left: auto;
+  border-radius: 100%
+}
+#settings:hover {
+  background-color: lightgrey;
+}
