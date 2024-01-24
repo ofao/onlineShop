@@ -1,7 +1,14 @@
-#circle {
-	background-color: lightgray;
-	border-radius: 100%;
-	display: inline-block;
-	width: 10%;
-	height: 10%;
+#cards_my {
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 10px;
+}
+#cards_my img {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+#cards_my h2 {
+  margin: 15px;
 }
