@@ -211,6 +211,7 @@ footer {
 	height: 100%;
 	transition: width 0.5s;
 	background-color: #e7ecef;
+	z-index: 1;
 }
 .side-menubar ol {
 	position: fixed;
@@ -230,6 +231,7 @@ footer {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+	z-index: 0;
 }
 #mask {
 	backdrop-filter: blur(2px);
@@ -239,7 +241,7 @@ footer {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 	left: 0;
-	z-index: 100;
+	z-index: 1;
 }
 .img-back, .razdel {
 	position: relative;
