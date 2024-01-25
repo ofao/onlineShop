@@ -11,12 +11,12 @@ a3cdf1
 8b8b89-->
 <link rel="stylesheet" type="text/css" href="style_ofelia.css">
 <link rel="stylesheet" type="text/css" href="my.css">
+
 <head>
 	<title>Fashion Boutique</title>
 	<link rel="icon" type="image/x-icon" href="pictures/2.svg">
 </head>
 <body>
-
 <nav>
 	<h1>Fashion Boutique
 		<img src="pictures\2.svg" alt="logo" width="50px" height="50px" align="center"></h1>
@@ -37,22 +37,28 @@ a3cdf1
 	</ol></aside>
 <div id='content'>
 	<div id='mask'></div>
-	<section>
-		<aside style='left: 0; width: 30%; height: 100%; background-color: #274c78; border-radius: 0px 0px 20px 20px;'>
+		<aside style='float: left; overflow: hidden; width: 30%; height: 100%; background-color: #274c78; border-radius: 20px 20px;'>
       <ol id='admin-menu'>
         <li><a href=''>Главная</a></li>
         <li><a href=''>Каталог</a></li>
         <li><a href=''>Кабинет</a></li>
         <li><a href=''>О нас</a></li>
+        <hr></hr>
+        <li><a href=''><img src='https://cdn-icons-png.flaticon.com/128/876/876225.png' width=30px height=30px style='align: middle;'>Статистика</a></li>
       </ol>
-      <hr></hr>
     </aside>
-  </section>
+    <div style='width: 70%; float: right;'>
+      <h1>Статистика</h1>
+      <canvas id='canvas'></canvas>
+      <canvas id='canvasPie'></canvas>
+    </div>
 </div>
 <footer>
 	<h4>© Хачатрян О. А. 2023</h4>
 </footer>
 </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js'></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src='plotting.js'></script>
 <script src="sam.js"></script>
 </HTML>
