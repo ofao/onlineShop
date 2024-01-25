@@ -1,6 +1,8 @@
+
+
 #cards_my {
   display: flex;
-  background: linear-gradient(to bottom right, rgba(255,255,255), rgba(163,205,241));
+  background: linear-gradient(to bottom right, #e7ecef, #a3cdf1);
   border-radius: 10px;
   margin: 10px;
 }
