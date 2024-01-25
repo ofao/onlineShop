@@ -1,0 +1,21 @@
+#admin-menu {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+#admin-menu a, #admin-menu li {
+  display: block;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#admin-menu a {
+  text-decoration: none;
+}
+#admin-menu li:hover {
+  background-color: #a3cdf1;
+}
+hr {
+  color: #274c78;
+}
