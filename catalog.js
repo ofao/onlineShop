@@ -20,7 +20,7 @@ razdels.forEach((value, key) => {
   section_buttons = document.createElement('section');
   section_buttons.classList.add('buttons-razdel');
 
-  for (var item of value) {
+  for (let item of value) {
     button = document.createElement('button');
     button.type = 'submit';
     button.innerText = item;
