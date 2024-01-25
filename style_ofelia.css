@@ -12,7 +12,7 @@
 	src: url("Soledago.ttf");
 }
 * {
-	color: 22223b;
+	color: #22223b;
 }
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
@@ -29,10 +29,10 @@ nav {
 	display: inline-block;
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
-	color: 22223b;
 	font-family: 'Yeseva One', serif;
 	text-align: center;
 }
+
 nav h1 {
 	display: inline-block;
 	overflow: hidden;
@@ -50,14 +50,13 @@ nav h1 {
 	float: left;
 }
 .menubar li a {
-	color: 22223b;
 	padding: 10px;
 	text-decoration: none;
 	display: inline-block;	
 	border-radius: 5px;
 }
 .menubar li a:hover {
-	background-color: e7ecef;
+	background-color: #e7ecef;
 }
 .menu {
 	display: none;
@@ -66,10 +65,10 @@ nav h1 {
 	box-align: center;
 }
 .menu:hover {
-	background-color: e7ecef;
+	background-color: #e7ecef;
 }
 body {
-	background-color: e7ecef;
+	background-color: #e7ecef;
 	margin-bottom: 0px;
 }
 footer {
@@ -155,8 +154,8 @@ footer {
   height: 100%;
   right: 0;
 	float: right;
-  background-color: a3cdf1;
-  color: 4a4e69;
+  background-color: #a3cdf1;
+  color: #4a4e69;
 	position: absolute;
 }
 
@@ -174,7 +173,7 @@ footer {
 	justify-content: center;
 	flex-direction: column;
 	border-radius: 10px;
-	background-color: a3cdf1;
+	background-color: #a3cdf1;
 }
 .card-news img{
 	border-radius: 10px 10px 0px 0px;
@@ -212,7 +211,7 @@ footer {
 	position: relative;
 	height: 100%;
 	transition: width 0.5s;
-	background-color: e7ecef;
+	background-color: #e7ecef;
 }
 .side-menubar ol {
 	position: fixed;
@@ -226,7 +225,7 @@ footer {
 	border-radius: 5px;
 }
 .side-menubar li a:hover {
-	background-color: a3cdf1;
+	background-color: #a3cdf1;
 }
 #content {
 	position: relative;
