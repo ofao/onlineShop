@@ -24,8 +24,7 @@ p {
 	font-family: 'Old Standard TT', serif;
 }
 nav {
-/*	background-color: 6096ba;*/
-	background: linear-gradient(to bottom right, rgba(96,150,186), rgba(163,205,241));
+	background: linear-gradient(to bottom right, #6096ba, #a3cdf1);
 	display: inline-block;
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
