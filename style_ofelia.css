@@ -15,7 +15,7 @@
 	color: #22223b;
 }
 h1, h2, h3, h4, h5, h6 {
-	text-align: center;
+  text-align: center;
 /*	font-family: 'Yeseva One', serif;*/
 	font-family: 'Soledago', serif;
 }
@@ -57,11 +57,26 @@ nav h1 {
 .menubar li a:hover {
 	background-color: #e7ecef;
 }
+.menubar li:hover ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a3cdf1;
+  position: absolute;
+}
+.dropdown {
+  padding-inline-start: 0px;
+  z-index: 2;
+  display: none;
+  list-style-type: none;
+  margin-top, margin-bottom: 5px;
+	border-radius: 5px;
+}
 .menu {
 	display: none;
-	border-radius: 5px;
 	float: right;
 	box-align: center;
+  border-radius: 10px;
 }
 .menu:hover {
 	background-color: #e7ecef;
@@ -74,8 +89,7 @@ footer {
 	width: 100%;
 	display: inline-block; 
 	position: relative;
-	color: grey;
-	z-index: 1;
+  background-color: #274c78;
 }
 .cards {
 	display: grid;
@@ -162,10 +176,6 @@ footer {
 	left: 0;
 	width: 60%;
 	border-radius: 5px 0px 0px 5px;
-	border: none;
-	+ .search-bar button {
-		display: inline-block;
-	}
 }
 .card-news {
 	display: inline-block;
@@ -211,10 +221,9 @@ footer {
 	height: 100%;
 	transition: width 0.5s;
 	background-color: #e7ecef;
-	z-index: 1;
+	z-index: 10;
 }
 .side-menubar ol {
-	position: fixed;
 	list-style-type: none;
 }
 .side-menubar li a {
@@ -226,6 +235,12 @@ footer {
 }
 .side-menubar li a:hover {
 	background-color: #a3cdf1;
+}
+.side-menubar li:hover ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 #content {
 	position: relative;
@@ -241,7 +256,7 @@ footer {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 	left: 0;
-	z-index: 1;
+	z-index: 9;
 }
 .img-back, .razdel {
 	position: relative;
