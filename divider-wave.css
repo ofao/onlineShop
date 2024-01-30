@@ -35,8 +35,8 @@
   top: 40%;
 }
 
-.custom-shape-divider-bottom-1706586349 {
-    position: absolute;
+.custom-shape-divider-bottom-1706593823 {
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -44,14 +44,40 @@
     line-height: 0;
     transform: rotate(180deg);
 }
-
-.custom-shape-divider-bottom-1706586349 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+.path-0 {
+    animation: pathAnim-0 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.ease-in-out {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.duration-300 {
+    transition-duration: .3s;
+}
+.delay-150 {
+    transition-delay: .15s;
 }
 
-.custom-shape-divider-bottom-1706586349 .shape-fill {
-    fill: #FFFFFF;
+@keyframes pathAnim-0 {
+  0% {
+    d: path("M 0,400 L 0,150 C 188,120.93333333333334 376,91.86666666666666 523,107 C 670,122.13333333333334 776,181.46666666666667 922,196 C 1068,210.53333333333333 1254,180.26666666666665 1440,150 L 1440,400 L 0,400 Z");
+  }
+  25% {
+    d: path("M 0,400 L 0,150 C 163.59999999999997,186.93333333333334 327.19999999999993,223.86666666666665 491,219 C 654.8000000000001,214.13333333333335 818.8,167.46666666666667 977,149 C 1135.2,130.53333333333333 1287.6,140.26666666666665 1440,150 L 1440,400 L 0,400 Z");
+  }
+  50% {
+    d: path("M 0,400 L 0,150 C 117.33333333333331,150.4 234.66666666666663,150.8 410,147 C 585.3333333333334,143.2 818.6666666666667,135.2 1000,135 C 1181.3333333333333,134.8 1310.6666666666665,142.4 1440,150 L 1440,400 L 0,400 Z");
+  }
+  75% {
+    d: path("M 0,400 L 0,150 C 159.0666666666666,177.60000000000002 318.1333333333332,205.20000000000002 483,198 C 647.8666666666668,190.79999999999998 818.5333333333335,148.8 979,135 C 1139.4666666666665,121.19999999999999 1289.7333333333331,135.6 1440,150 L 1440,400 L 0,400 Z");
+  }
+  100% {
+    d: path("M 0,400 L 0,150 C 188,120.93333333333334 376,91.86666666666666 523,107 C 670,122.13333333333334 776,181.46666666666667 922,196 C 1068,210.53333333333333 1254,180.26666666666665 1440,150 L 1440,400 L 0,400 Z");
+  }
 }
