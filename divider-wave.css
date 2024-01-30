@@ -34,3 +34,24 @@
   left: -1.5%;
   top: 40%;
 }
+
+.custom-shape-divider-bottom-1706586349 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706586349 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1706586349 .shape-fill {
+    fill: #FFFFFF;
+}
