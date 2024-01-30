@@ -23,17 +23,50 @@ a3cdf1
 	<a class='menu' id='menu'><img src='pictures\menu.png' height='50px' width='50px'></a>
 	<ol id="menubar" class='menubar'>
 		<li><a href="sam_ofelia.html">На главную</a></li>
-		<li><a href="catalog.html">Каталог</a></li>
+    <li><a href="news.html">Новости</a></li>
+		<li><a href="catalog.html">Каталог</a>
+		  <ul id='dropdown' class='dropdown'>
+        <li><a href='#'>Женская одежда</a></li>
+        <li><a href='#'>Мужская одежда</a></li>
+        <li><a href='#'>Детская одежда</a></li>
+        <li><a href='#'>Обувь</a></li>
+        <li><a href='#'>Аксессуары</a></li>
+      </ul>
+		</li>
 		<li><a href="my.html">Мой кабинет</a></li>
-		<li><a href="about.html">О нас</a></li>
+		<li><a href="about.html">О нас</a>
+      <ul id='dropdown' class='dropdown'>
+        <li><a href='#'>История компании</a></li>
+        <li><a href='#'>Дипломы и сертификаты</a></li>
+        <li><a href='#'>Наши партнеры</a></li>
+        <li><a href='#'>Наши клиенты</a></li>
+        <li><a href='#'>Наши координаты</a></li>
+      </ul></li>
 	</ol>
 </nav>
 <aside id="side-menubar" class='side-menubar'>
 	<ol>
 		<li><a href="sam_ofelia.html">На главную</a></li>
-		<li><a href="">Каталог</a></li>
-		<li><a href="">Мой кабинет</a></li>
-		<li><a href="about.html">О нас</a></li>
+    <li><a href="news.html">Новости</a></li>
+		<li><a href="catalog.html">Каталог</a>
+		  <ul id='dropdown' class='dropdown'>
+        <li><a href='#'>Женская одежда</a></li>
+        <li><a href='#'>Мужская одежда</a></li>
+        <li><a href='#'>Детская одежда</a></li>
+        <li><a href='#'>Обувь</a></li>
+        <li><a href='#'>Аксессуары</a></li>
+      </ul>
+		</li>
+		<li><a href="my.html">Мой кабинет</a></li>
+		<li><a href="about.html">О нас</a>
+		  <ul id='dropdown' class='dropdown'>
+        <li><a href='#'>История компании</a></li>
+        <li><a href='#'>Дипломы и сертификаты</a></li>
+        <li><a href='#'>Наши партнеры</a></li>
+        <li><a href='#'>Наши клиенты</a></li>
+        <li><a href='#'>Наши координаты</a></li>
+      </ul>
+		</li>
 	</ol></aside>
 <div id='content'>
 	<div id='mask'></div>
@@ -70,7 +103,11 @@ a3cdf1
     <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 L 0,150 C 141.60000000000002,114.26666666666667 283.20000000000005,78.53333333333333 433,80 C 582.8,81.46666666666667 740.8,120.13333333333333 910,138 C 1079.2,155.86666666666667 1259.6,152.93333333333334 1440,150 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="#e7ecef" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
 </div>
   <section class='footer-info'>
-    <h4>© Хачатрян О. А. 2023</h4>
+    <section>
+      <h4>© Хачатрян О. А. 2023</h4>
+      <h4>89080586154</h4>
+      <h4>ofeliahachatryan@gmail.com</h4>
+    </section>
     <a href="#" onclick="window.print();return false;">Распечатать</a>
     <a href="question.html">Задать вопрос</a>
     <a href="#" onclick="change_lang()" id='lang'>RUS</a>
