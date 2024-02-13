@@ -16,7 +16,7 @@
     <button onclick='makeOl()'><img src='https://cdn-icons-png.flaticon.com/128/32/32754.png'></img></button>
     <button onclick='clearStyle()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375659.png'></img></button>
   </section>
-  <div id='textArea' style='width: 50%; height: 50%; background-color: aliceblue; margin: 20px; border-radius: 20px; position: absolute; padding: 10px;' contenteditable='true'></div>
+  <div id='textArea' style='width: 100%; height: 50%; background-color: aliceblue; margin: 20px; border-radius: 20px; position: absolute; padding: 10px;' contenteditable='true'></div>
 <style>
   .bar {
     display: flex;
@@ -37,8 +37,8 @@
     width: 50px;
     height: 50px;
   }
-  #textarea:active {
-    border-color: unset;
+  #textArea:focus-visible {
+    outline: none;
   }
 </style>
 </HTML>
