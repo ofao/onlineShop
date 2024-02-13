@@ -1,10 +1,8 @@
-function makeBold(){
-  //document.getElementById("textarea1").style.fontWeight="bold";
+function makeBold() {
   document.execCommand('bold', false, null);
 }
 
-function makeItalic(){
-  //document.getElementById("textarea1").style.fontStyle = "italic";
+function makeItalic() {
   document.execCommand('italic', false, null);
 }
 
@@ -33,17 +31,14 @@ function makeOl() {
 }
 
 function alignLeft() {
-  //document.getElementById("textarea1").style.textAlign = "left";
   document.execCommand('justifyLeft', false, null);
 }
 
 function alignCenter() {
-  //document.getElementById("textarea1").style.textAlign = "center";
   document.execCommand('justifyCenter', false, null);
 }
 
 function alignRight() {
-  //document.getElementById("textarea1").style.textAlign = "right";
   document.execCommand('justifyRight', false, null);
 }
 
@@ -51,7 +46,7 @@ function alignFull() {
   document.execCommand('justifyFull', false, null);
 }
 
-function f6(){
+function f6() {
   document.getElementById("textarea1").style.textTransform = "uppercase";
 }
 
