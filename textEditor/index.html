@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <HTML>
   <script src='editText.js'></script>
-  <section style='display: flex; flex-wrap: wrap; align-items: center; margin: 20px; gap: 10px;'>
+  <section class='bar'>
     <button onclick='makeBold()'><img src='https://cdn-icons-png.flaticon.com/128/235/235524.png'></img></button>
     <button onclick='makeItalic()'><img src='https://cdn-icons-png.flaticon.com/128/14253/14253712.png'></img></button>
     <button onclick='alignLeft()'><img src='https://cdn-icons-png.flaticon.com/128/4355/4355223.png'></img></button>
@@ -17,4 +17,20 @@
     <button onclick='clearStyle()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375659.png'></img></button>
   </section>
   <div id='textArea' style='width: 50%; height: 50%; background-color: aliceblue; margin: 20px; border-radius: 20px; position: absolute; padding: 10px;' contenteditable='true'></div>
+<style>
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+  }
+  .bar button {
+    background-color: none;
+    border-color: #2c3e50;
+  }
+  .bar button:hover {
+    background-color: #a3cdf1;
+  }
+</style>
 </HTML>
