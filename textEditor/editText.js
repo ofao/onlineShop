@@ -32,34 +32,38 @@ function makeOl() {
   document.execCommand('insertOrderedList', false, null);
 }
 
-function alignLeft(){
+function alignLeft() {
   //document.getElementById("textarea1").style.textAlign = "left";
   document.execCommand('justifyLeft', false, null);
 }
 
-function alignCenter(){
+function alignCenter() {
   //document.getElementById("textarea1").style.textAlign = "center";
   document.execCommand('justifyCenter', false, null);
 }
 
-function alignRight(){
+function alignRight() {
   //document.getElementById("textarea1").style.textAlign = "right";
   document.execCommand('justifyRight', false, null);
+}
+
+function alignFull() {
+  document.execCommand('justifyFull', false, null);
 }
 
 function f6(){
   document.getElementById("textarea1").style.textTransform = "uppercase";
 }
 
-function f7(){
+function f7() {
   document.getElementById("textarea1").style.textTransform = "lowercase";
 }
 
-function f8(){
+function f8() {
   document.getElementById("textarea1").style.textTransform = "capitalize";
 }
 
-function clearStyle(){
+function clearStyle() {
   document.execCommand('removeFormat', false, null);
 }
 
