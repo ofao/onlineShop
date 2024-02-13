@@ -14,11 +14,11 @@ function makeStrike() {
   document.execCommand('strikethrough', false, null);
 }
 
-function top() {
+function makeTop() {
   document.execCommand('superscript', false, null);
 }
 
-function bottom() {
+function makeBottom() {
   document.execCommand('subscript', false, null);
 }
 
