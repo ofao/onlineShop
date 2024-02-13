@@ -2,21 +2,27 @@
 <HTML>
   <script src='editText.js'></script>
   <section class='bar'>
-    <button onclick='makeBold()'><img src='https://cdn-icons-png.flaticon.com/128/235/235524.png'></img></button>
-    <button onclick='makeItalic()'><img src='https://cdn-icons-png.flaticon.com/128/14253/14253712.png'></img></button>
-    <button onclick='alignLeft()'><img src='https://cdn-icons-png.flaticon.com/128/4355/4355223.png'></img></button>
-    <button onclick='alignCenter()'><img src='https://cdn-icons-png.flaticon.com/128/1994/1994232.png'></img></button>
-    <button onclick='alignRight()'><img src='https://cdn-icons-png.flaticon.com/128/4340/4340879.png'></img></button>
-    <button onclick='alignFull()'><img src='https://cdn-icons-png.flaticon.com/128/8233/8233897.png'></img></button>
-    <button onclick='makeUnderline()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375737.png'></img></button>
-    <button onclick='makeStrike()'><img src='https://cdn-icons-png.flaticon.com/128/7350/7350830.png'></img></button>
-    <button onclick='makeTop()'><img src='https://cdn-icons-png.flaticon.com/128/1828/1828088.png'></img></button>
-    <button onclick='makeBottom()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375710.png'></img></button>
-    <button onclick='makeUl()'><img src='https://cdn-icons-png.flaticon.com/128/847/847446.png'></img></button>
-    <button onclick='makeOl()'><img src='https://cdn-icons-png.flaticon.com/128/32/32754.png'></img></button>
+    <section style='border-right:2px solid #2c3e50'>
+      <button onclick='makeBold()'><img src='https://cdn-icons-png.flaticon.com/128/235/235524.png'></img></button>
+      <button onclick='makeItalic()'><img src='https://cdn-icons-png.flaticon.com/128/14253/14253712.png'></img></button>
+      <button onclick='makeUnderline()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375737.png'></img></button>
+      <button onclick='makeStrike()'><img src='https://cdn-icons-png.flaticon.com/128/7350/7350830.png'></img></button>
+      <button onclick='makeTop()'><img src='https://cdn-icons-png.flaticon.com/128/1828/1828088.png'></img></button>
+      <button onclick='makeBottom()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375710.png'></img></button>
+    </section>
+    <section style='border-right:2px solid #2c3e50'>
+      <button onclick='alignLeft()'><img src='https://cdn-icons-png.flaticon.com/128/4355/4355223.png'></img></button>
+      <button onclick='alignCenter()'><img src='https://cdn-icons-png.flaticon.com/128/1994/1994232.png'></img></button>
+      <button onclick='alignRight()'><img src='https://cdn-icons-png.flaticon.com/128/4340/4340879.png'></img></button>
+      <button onclick='alignFull()'><img src='https://cdn-icons-png.flaticon.com/128/8233/8233897.png'></img></button>
+    </section>
+    <section style='border-right:2px solid #2c3e50'>
+      <button onclick='makeUl()'><img src='https://cdn-icons-png.flaticon.com/128/847/847446.png'></img></button>
+      <button onclick='makeOl()'><img src='https://cdn-icons-png.flaticon.com/128/32/32754.png'></img></button>
+    </section>
     <button onclick='clearStyle()'><img src='https://cdn-icons-png.flaticon.com/128/7375/7375659.png'></img></button>
   </section>
-  <div id='textArea' style='width: 100%; height: 50%; background-color: aliceblue; margin: 20px; border-radius: 20px; position: absolute; padding: 10px;' contenteditable='true'></div>
+  <div id='textArea' style='width: 90%; height: 50%; background-color: aliceblue; margin: 20px; border-radius: 20px; position: absolute; padding: 10px;' contenteditable='true'></div>
 <style>
   .bar {
     display: flex;
