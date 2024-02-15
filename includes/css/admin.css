@@ -1,0 +1,35 @@
+#admin-menu {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+#admin-menu a, #admin-menu li {
+  display: block;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#admin-menu a {
+  color: #e7ecef;
+  text-decoration: none;
+}
+#admin-menu li:hover {
+  background-color: #6096ba;
+}
+hr {
+  color: #a3cdf1;
+}
+
+.buttons-editing {
+  display: inline-block;
+  font-size: 50px;
+  margin: 10px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.buttons-editing:hover {
+  background-color: #a3cdf1;
+}
