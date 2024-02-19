@@ -192,6 +192,15 @@ footer {
   	display: block;
   	object-fit: cover;
 }
+.gallery-cell {
+  	margin: 10px;
+  	display: flex;
+  	justify-content: center;
+}
+.gallery-cell img {
+	width: 300px;
+  	height: 200px;
+}
 
 .flickity-page-dots {
   display: none;
