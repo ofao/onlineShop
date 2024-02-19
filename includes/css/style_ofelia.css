@@ -192,23 +192,7 @@ footer {
   	display: block;
   	object-fit: cover;
 }
-.gallery-cell {
-  	margin: 10px;
-  	display: flex;
-  	justify-content: center;
-}
-.gallery-cell img {
-	width: 300px;
-  	height: 200px;
-}
-/* cell number */
-.gallery-cell:before {
-  	display: block;
-  	text-align: center;
-  	line-height: 200px;
-  	font-size: 80px;
-  	color: white;
-}
+
 .flickity-page-dots {
   display: none;
 }
