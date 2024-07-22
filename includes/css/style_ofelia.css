@@ -1,34 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
-
 @font-face {
-	font-family: 'ANGST';
-	src: url("Angst-NormalSerif.otf");
+	font-family: 'Arkhip';
+	src: url("Arkhip.ttf");
 }
 @font-face {
-	font-family: 'Soledago';
-	src: url("Soledago.ttf");
+	font-family: 'Rostov';
+	src: url("Rostov.ttf");
 }
 * {
+	font-family: 'Arkhip', serif;
+}
+a {
 	color: #22223b;
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
+  color: #22223b;
 /*	font-family: 'Yeseva One', serif;*/
-	font-family: 'Soledago', serif;
+	font-family: 'Rostov', serif;
 }
 p {
+	color: #22223b;
 	word-break: break-all;
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Arkhip', serif;
 }
 nav {
 	background: linear-gradient(to bottom right, #6096ba, #a3cdf1);
 	display: inline-block;
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
-	font-family: 'Yeseva One', serif;
+	font-family: 'Arkhip', serif;
 	text-align: center;
 }
 
@@ -37,7 +37,7 @@ nav h1 {
 	overflow: hidden;
 	float: left;
 	margin:  10px;
-	font-family: 'Kalnia', serif;
+	font-family: 'Arkhip', serif;
 }
 .menubar{
 	display: inline-block;
@@ -91,48 +91,7 @@ footer {
 	position: relative;
   background-color: #274c78;
 }
-.cards {
-	display: flex;
-  flex-wrap: wrap;
-	place-items: center;
-	width: 100%;
-	align-content: center;
-  justify-content: space-around;
-  gap: 15px;
-}
-.card {
-	position: relative;
-  	border-radius: 10px;
-  	overflow: hidden;
-	--size: clamp(300px, 50vmin, 200px);
-}
-.card:is(:hover, :focus-visible) {
-  --hover: 1;
-}
-.card img {
-	width: 300px;
-  	height: 200px;
-	object-fit: cover;
-}
-.card span {
-	padding: 0;
-	align-content: center;
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	height: 100%;
-	background: hsl(0 0% 100% / 0.5);
-	backdrop-filter: blur(16px);
-	transform: translateY(50%)
-    translateY(
-      calc(
-        (var(--size) * 0.4)
-      )
-    )
-    translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
-	transition: transform 0.2s;
-}
+
 .search-bar {
 	display: inline-block;
 	overflow: hidden;
@@ -157,7 +116,7 @@ footer {
   outline:none;
 }
 .search-bar button{
-	font-family: 'ANGST';
+	font-family: 'Dudka';
 	font-weight: bold;
 	font-size: 30px;
 	border: 0;
@@ -172,6 +131,7 @@ footer {
   background-color: #a3cdf1;
   color: #4a4e69;
 	position: absolute;
+	cursor: pointer;
 }
 
 .search-bar input:not(:placeholder-shown) {
@@ -179,29 +139,18 @@ footer {
 	width: 60%;
 	border-radius: 5px 0px 0px 5px;
 }
-.card-news {
-	display: inline-block;
-	justify-content: center;
-	flex-direction: column;
-	border-radius: 10px;
-	background-color: #a3cdf1;
-}
-.card-news img{
-	border-radius: 10px 10px 0px 0px;
-	max-width: 100%;
-  	display: block;
-  	object-fit: cover;
+
+.flickity-viewport {
+	height: 100%;
 }
 .gallery-cell {
   	margin: 10px;
   	display: flex;
   	justify-content: center;
 }
-.gallery-cell img {
-	width: 300px;
-  	height: 200px;
+.gallery-cell a {
+	text-decoration: none;
 }
-
 .flickity-page-dots {
   display: none;
 }
@@ -264,24 +213,6 @@ footer {
 	-moz-background-size: cover;
 	background-size: cover;
 }
-.skewed {
-  position: relative;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background: #2c3e50;
-  z-index: 0;
-  transform: skewY(-5deg);
-  transform-origin: top left;
-}
-
 .footer-info {
   position: relative;
   display: flex;
@@ -292,7 +223,6 @@ footer {
   background-color: #274c78;
   z-index: 1;
 }
-
 .footer-info h4 {
   color: #e7ecef;
   margin: 0px;
@@ -303,4 +233,15 @@ footer {
   border-radius: 10px;
   padding: 10px;
   text-decoration: none;
+  font-family: 'Rostov';
+}
+.favourite {
+    position: relative;
+    float: right;
+    right: 20px;
+    height: 20px;
+}
+.favourite img {
+	height: 20px;
+	width: 20px;
 }

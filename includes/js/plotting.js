@@ -4,35 +4,35 @@ var population = {
     labels: years,
     datasets: [
         {
-            label: 'Africa',
+            label: 'Товар1',
             borderColor: "rgba(220,180,0,1)",
             pointColor: "rgba(220,180,0,1)",
             lineTension: 0,
             fill: false,
             data: [106, 106, 107, 111, 133, 221, 783, 2478]
         }, {
-            label: 'America',
+            label: 'Товар2',
             borderColor: "rgba(94,5,115,1)",
             pointColor: "rgba(151,187,205,1)",
             lineTension: 0,
             fill: false,
             data: [12, 18, 31, 64, 156, 339, 820, 1217]
         }, {
-            label: 'Asia',
+            label: 'Товар3',
             borderColor: "rgba(151,187,205,1)",
             pointColor: "rgba(151,187,205,1)",
             lineTension: 0,
             fill: false,
             data: [411, 502, 635, 809, 947, 1402, 3700, 5267]
         }, {
-            label: 'Europe',
+            label: 'Товар4',
             borderColor: "rgba(46,103,219,1)",
             pointColor: "rgba(151,187,205,1)",
             lineTension: 0,
             fill: false,
             data: [178, 190, 203, 276, 408, 547, 675, 734]
         }, {
-            label: 'Oceania',
+            label: 'Товар5',
             borderColor: "rgba(189,50,189 ,1)",
             pointColor: "rgba(151,187,205,1)",
             lineTension: 0,
@@ -50,7 +50,7 @@ var population = {
 };
 
 var continentsArea = {
-    labels: ['Asia', 'America', 'Africa', 'Europe', 'Antartica', 'Oceania'],
+    labels: ['Товар1', 'Товар2', 'Товар3', 'Товар4', 'Товар4', 'Товар5'],
     datasets: [
     {
         backgroundColor: [
